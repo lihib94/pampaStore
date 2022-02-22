@@ -1,0 +1,46 @@
+
+/* .info{
+    position:absolute;
+    bottom: 190px;
+    left: 120px;
+    background-color: rgba(240, 248, 255, 0.61);
+    text-align: left;
+    right: 16px;
+    border-radius: 30px;
+    padding: 15px;
+    color:#866e51;
+    
+ 
+
+.icons{
+    text-align: center;
+    color:#69543a;
+} */
+.main{
+    background-image: url("../Photos/main.jpg");
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardsContainer{
+    width: 60rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(240, 248, 255, 0.61);
+    border-radius: 30px;
+    color:#866e51;
+    height: 13rem;
+    margin-bottom: 6.5rem;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.text{
+    height: 10rem;
+}

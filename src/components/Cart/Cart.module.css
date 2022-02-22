@@ -1,0 +1,34 @@
+.cart {
+  max-width: 30rem;
+  background-color: #856f549c;
+  border-color: #5a4c3b;;
+  color: white;
+  
+  margin: 1rem auto;
+  border-radius: 15px;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.cart h2 {
+  font-size: 1.25rem;
+  /* margin: 0.5rem 0; */
+  text-align: center ;
+  /* border-bottom: 2px solid #5a4c3b;
+  line-height: 2.4; */
+  /* width: 50%; */
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.cartIcon{
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+  text-align: center ;
+  width: 100%;
+}

@@ -1,0 +1,73 @@
+ 
+ .header{
+   display: flex;
+   justify-content: space-around;
+   height:20vh;
+   max-height: 120px;
+   padding-top: 2rem;
+   align-items: center;
+ }
+ .navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width:50rem;
+ }
+ .navlinks {
+   width:48rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   /* padding-bottom: 0.2rem; */
+   border-bottom: 1px solid #f2f2f2;
+ }
+ .navlink {
+   all:unset;
+  padding: 1rem;
+  color: white;
+  font-size: 22px;
+ }
+ .navlink:hover{
+  color:#866e51;
+  cursor: pointer;
+  }
+ .navlinks .h1Link{
+  cursor: pointer;
+  all:unset;
+  padding-left: 1rem;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+ }
+ .h1Link:hover{
+  color:#866e51;
+  cursor: pointer;
+  }
+  .LogInOutUser{
+    all:unset;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 1rem;
+  }
+  .LogInOutUser:hover{
+    color:#866e51;
+    cursor: pointer;
+  }
+  .LogInOutUser button{
+    all:unset;
+    color: white;
+    font-size: 22px;
+  }
+ .LogInOutUserContainer{
+   width:11rem;
+   display: flex;
+   justify-content: center;
+ }
+ .cartButton{
+  width:11rem;
+  display: flex;
+  justify-content: center;
+ }
+
+ 

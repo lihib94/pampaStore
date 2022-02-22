@@ -1,0 +1,33 @@
+.cartbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 11rem;
+  height: 3rem;
+  background-color: transparent;
+  border-color: #d5dad9;
+  color:  #a88d6c;
+  font-weight: bold;
+}
+
+.cartbutton:hover,
+.cartbutton:active{
+  background-color: #856f549c;
+  border-color: #5a4c3b;;
+  color: white;
+}
+
+
+
+.badge {
+  background-color: #a88d6c;
+  border-radius: 30px;
+  padding: 0.15rem 1.25rem;
+  color: #5a4c3b;
+}
+.badge:hover {
+  background-color: beige;
+}
+.mycart{
+  width: 7.5rem
+}
